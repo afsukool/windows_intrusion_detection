@@ -17,6 +17,3 @@ if __name__ == "__main__":
     interface = input("Enter the network interface to monitor (e.g., 'Wi-Fi', 'Ethernet'): ")
     monitor_network(interface)
 ```
-
-
-This project is ready to be uploaded to GitHub. Let me know if you need further customizations or additional features!
