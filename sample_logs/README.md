@@ -1,0 +1,2 @@
+- **sample_security_log.evtx**: A sample Event Viewer log with simulated unauthorized access events.
+- **sample_network_traffic.pcap**: Captured network traffic showing suspicious activity.
