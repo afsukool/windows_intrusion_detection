@@ -1,0 +1,40 @@
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+    <EventID>4624</EventID>
+    <Version>2</Version>
+    <Level>0</Level>
+    <Task>12544</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8020000000000000</Keywords>
+    <TimeCreated SystemTime="2025-01-20T10:23:30.000000000Z" />
+    <EventRecordID>123456</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="500" ThreadID="1024" />
+    <Channel>Security</Channel>
+    <Computer>Home-PC</Computer>
+    <Security />
+  </System>
+  <EventData>
+    <Data Name="SubjectUserSid">S-1-5-18</Data>
+    <Data Name="SubjectUserName">Administrator</Data>
+    <Data Name="SubjectDomainName">Home-PC</Data>
+    <Data Name="SubjectLogonId">0x3e7</Data>
+    <Data Name="TargetUserSid">S-1-5-21-123456789-1234567890-123456789-1001</Data>
+    <Data Name="TargetUserName">User1</Data>
+    <Data Name="TargetDomainName">Home-PC</Data>
+    <Data Name="LogonType">2</Data>
+    <Data Name="LogonProcessName">User32</Data>
+    <Data Name="AuthenticationPackageName">Negotiate</Data>
+    <Data Name="WorkstationName">Home-PC</Data>
+    <Data Name="IpAddress">192.168.1.101</Data>
+    <Data Name="IpPort">49210</Data>
+    <Data Name="ProcessId">0x4c0</Data>
+    <Data Name="ProcessName">C:\Windows\System32\winlogon.exe</Data>
+    <Data Name="TransmittedServices">-</Data>
+    <Data Name="LmPackageName">-</Data>
+    <Data Name="KeyLength">128</Data>
+    <Data Name="ProcessIntegrityLevel">High</Data>
+  </EventData>
+</Event>
