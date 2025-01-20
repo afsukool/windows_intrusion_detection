@@ -1,5 +1,5 @@
 # docs/setup_guidelines.md
-
+```markdown
 # Setup Guidelines
 
 1. Enable Windows Defender and Firewall.
@@ -10,4 +10,4 @@
    ```
 4. Install Wireshark and ensure `tshark` is available in the PATH.
 5. Configure log retention in Event Viewer for Security Logs.
-
+```
